@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Facts & Quiz Central</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Fun Facts & Quiz Central! 🌟</h1>
+        <p>Explore amazing facts and test your knowledge below.</p>
+    </header>
+
+    <hr>
+
+    <section id="fun-facts">
+        <h2>💡 Did You Know?</h2>
+        <p>Click on each fact to reveal the secret!</p>
+        
+        <details>
+            <summary><strong>The Heart of a Shrimp</strong></summary>
+            <p>A shrimp's heart is located in its head!</p>
+        </details>
+
+        <details>
+            <summary><strong>Everlasting Food</strong></summary>
+            <p>Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still perfectly edible!</p>
+        </details>
+
+        <details>
+            <summary><strong>A "Berry" Interesting Fact</strong></summary>
+            <p>Bananas are technically berries, but strawberries are not!</p>
+        </details>
+
+        <details>
+            <summary><strong>Octopus Anatomy</strong></summary>
+            <p>An octopus has three hearts and blue blood.</p>
+        </details>
+    </section>
+
+    <hr>
+
+    <section id="quiz">
+        <h2>🧠 Quick Quiz</h2>
+        <form action="#">
+            <fieldset>
+                <legend><strong>Question 1: Which planet is known as the Red Planet?</strong></legend>
+                <input type="radio" id="venus" name="planet" value="venus">
+                <label for="venus">Venus</label><br>
+                <input type="radio" id="mars" name="planet" value="mars">
+                <label for="mars">Mars</label><br>
+                <input type="radio" id="jupiter" name="planet" value="jupiter">
+                <label for="jupiter">Jupiter</label>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><strong>Question 2: Which of these are types of clouds? (Select all that apply)</strong></legend>
+                <input type="checkbox" id="cumulus" name="cloud" value="cumulus">
+                <label for="cumulus">Cumulus</label><br>
+                <input type="checkbox" id="nimbus" name="cloud" value="nimbus">
+                <label for="nimbus">Nimbus</label><br>
+                <input type="checkbox" id="stratus" name="cloud" value="stratus">
+                <label for="stratus">Stratus</label><br>
+                <input type="checkbox" id="thunder" name="cloud" value="thunder">
+                <label for="thunder">Thunderbolt (Not a cloud type)</label>
+            </fieldset>
+
+            <br>
+
+            <label for="feedback"><strong>What's your favorite fun fact?</strong></label><br>
+            <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Type here..."></textarea>
+            
+            <br><br>
+            
+            <input type="submit" value="Submit Quiz (Visual only)">
+            <input type="reset" value="Clear Answers">
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Fun Learning Project | Built with HTML Only</p>
+    </footer>
+</body>
+</html>
