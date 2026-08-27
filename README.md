@@ -1,0 +1,31 @@
+- [ ] Front-End
+  - [✓] HTML
+  - [✓] CSS
+  - [✓] JS
+  - [✓] Bootstrap
+  - [ ] SASS
+  - [ ] PugJS
+  - [ ] Tailwind CSS
+  - [ ] TypeScript
+  - [ ] React JS
+  - [ ] Next.js
+  - [ ] GSAP
+  - [ ] Anime.js
+  - [ ] Three.js
+- [ ] Back-end
+  - [ ] Node.js
+  - [ ] nest JS
+  - [ ] GraphQL
+  - [✓] MySQL
+  - [✓] PHP
+  - [ ] Laravel
+  - [ ] Livewire
+  - [ ] Filament
+  - [ ] Docker
+  - [ ] Red Hat
+  - [ ] Linux
+  - [ ] CCNA
+  - [ ] DEVops
+  - [ ] Jenkins
+  - [ ] OS
+  - [ ] AWS
